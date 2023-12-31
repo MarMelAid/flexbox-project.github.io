@@ -35,3 +35,14 @@ html {
 .nav-bar a:hover {
     color: black;
 }
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(43, 80, 148);
+}
+
+.photos {
+    display: flex;
+}
