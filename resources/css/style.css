@@ -30,19 +30,51 @@ html {
 .nav-bar a {
     color: white;
     padding: 1rem 1rem;
+    text-decoration: none;
 }
 
 .nav-bar a:hover {
     color: black;
+    text-decoration: underline;
 }
 
-.intro {
+.intro, .activities {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: rgb(43, 80, 148);
+    padding: 20px;
+    font-size: 1.2rem;
 }
 
 .photos {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(43, 80, 148);
+    padding: 10px;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.photo span {
+    font-size: 1.2rem;
+    padding: 5px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(43, 80, 148);
 }
